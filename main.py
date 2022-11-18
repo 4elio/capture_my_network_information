@@ -20,7 +20,7 @@ class identificate:
         ip_address = self.get_ip()
         response = requests.get(f'https://ipapi.co/{ip_address}/json/').json()
         
-        #Conversione da array a stringa
+        #Conversione da array in stringa
         
         location_data = json.dumps(response)
        # location_data = json.loads(location_data) # Decommentare se si vuole convertire in Dict
