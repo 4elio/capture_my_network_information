@@ -69,7 +69,11 @@ class scannerport:
             print("\ Server not responding !!!!")
             sys.exit()    
 
+            
+banner = pyfiglet.figlet_format("My Network Check")
+
 def main():
+    print(banner)
     youare.get_location() # Chiamata la funzione get_location 
     scannerport().portcheck() #Chiamata la funzione portcheck 
     quit() 
