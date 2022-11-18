@@ -1,6 +1,6 @@
 # Il programma è stato scritto implementando i codici trovati su https://www.geeksforgeeks.org/
 
-
+import pyfiglet
 import json
 import requests
 import sys
