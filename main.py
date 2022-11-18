@@ -52,7 +52,7 @@ class scannerport:
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 socket.setdefaulttimeout(1)
 
-                # returns an error indicatoror i in location_data:
+                # Funzione che restituisce il print del output nel caso trovi una porta aperta
 
                 result = s.connect_ex((target, port))
                 if result == 0:
